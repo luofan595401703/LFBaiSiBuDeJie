@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		18E6BA891C324D0B007965D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6BA881C324D0B007965D5 /* main.m */; };
 		18E6BA8C1C324D0B007965D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6BA8B1C324D0B007965D5 /* AppDelegate.m */; };
-		18E6BA8F1C324D0B007965D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6BA8E1C324D0B007965D5 /* ViewController.m */; };
-		18E6BA921C324D0B007965D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E6BA901C324D0B007965D5 /* Main.storyboard */; };
 		18E6BA941C324D0B007965D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E6BA931C324D0B007965D5 /* Assets.xcassets */; };
-		18E6BA971C324D0B007965D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E6BA951C324D0B007965D5 /* LaunchScreen.storyboard */; };
 		18E6BAA21C324D0B007965D5 /* LFBaiSiBuDeJieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6BAA11C324D0B007965D5 /* LFBaiSiBuDeJieTests.m */; };
 		18E6BAAD1C324D0C007965D5 /* LFBaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6BAAC1C324D0C007965D5 /* LFBaiSiBuDeJieUITests.m */; };
+		18FC5B691C32983A00F859D5 /* LFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5B681C32983A00F859D5 /* LFTabBarController.m */; };
+		18FC5B6C1C329A6600F859D5 /* LFNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5B6B1C329A6600F859D5 /* LFNavController.m */; };
+		18FC5B7F1C329D7600F859D5 /* LFNewTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5B7E1C329D7600F859D5 /* LFNewTabVC.m */; };
+		18FC5B821C329D8D00F859D5 /* LFMeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5B811C329D8D00F859D5 /* LFMeTableVC.m */; };
+		18FC5B851C329DC400F859D5 /* LFEssenceTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5B841C329DC400F859D5 /* LFEssenceTabVC.m */; };
+		18FC5B881C329DD600F859D5 /* LFAttentionTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5B871C329DD600F859D5 /* LFAttentionTabVC.m */; };
+		18FC5B8B1C32A71700F859D5 /* LFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC5B8A1C32A71700F859D5 /* LFTabBar.m */; };
 		5FB09917DF4625EE40C6A7A3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F409E8D3EF1209BD4A8B0F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -38,13 +42,9 @@
 /* Begin PBXFileReference section */
 		18E6BA841C324D0B007965D5 /* LFBaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFBaiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E6BA881C324D0B007965D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18E6BA8A1C324D0B007965D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18E6BA8B1C324D0B007965D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18E6BA8D1C324D0B007965D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18E6BA8E1C324D0B007965D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18E6BA911C324D0B007965D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E6BA8A1C324D0B007965D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		18E6BA8B1C324D0B007965D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		18E6BA931C324D0B007965D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18E6BA961C324D0B007965D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E6BA981C324D0B007965D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E6BA9D1C324D0B007965D5 /* LFBaiSiBuDeJieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFBaiSiBuDeJieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E6BAA11C324D0B007965D5 /* LFBaiSiBuDeJieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaiSiBuDeJieTests.m; sourceTree = "<group>"; };
@@ -52,6 +52,20 @@
 		18E6BAA81C324D0B007965D5 /* LFBaiSiBuDeJieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFBaiSiBuDeJieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E6BAAC1C324D0C007965D5 /* LFBaiSiBuDeJieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaiSiBuDeJieUITests.m; sourceTree = "<group>"; };
 		18E6BAAE1C324D0C007965D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FC5B671C32983A00F859D5 /* LFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabBarController.h; sourceTree = "<group>"; };
+		18FC5B681C32983A00F859D5 /* LFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabBarController.m; sourceTree = "<group>"; };
+		18FC5B6A1C329A6600F859D5 /* LFNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNavController.h; sourceTree = "<group>"; };
+		18FC5B6B1C329A6600F859D5 /* LFNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNavController.m; sourceTree = "<group>"; };
+		18FC5B7D1C329D7600F859D5 /* LFNewTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFNewTabVC.h; sourceTree = "<group>"; };
+		18FC5B7E1C329D7600F859D5 /* LFNewTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFNewTabVC.m; sourceTree = "<group>"; };
+		18FC5B801C329D8D00F859D5 /* LFMeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFMeTableVC.h; sourceTree = "<group>"; };
+		18FC5B811C329D8D00F859D5 /* LFMeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFMeTableVC.m; sourceTree = "<group>"; };
+		18FC5B831C329DC400F859D5 /* LFEssenceTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFEssenceTabVC.h; sourceTree = "<group>"; };
+		18FC5B841C329DC400F859D5 /* LFEssenceTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFEssenceTabVC.m; sourceTree = "<group>"; };
+		18FC5B861C329DD600F859D5 /* LFAttentionTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAttentionTabVC.h; sourceTree = "<group>"; };
+		18FC5B871C329DD600F859D5 /* LFAttentionTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAttentionTabVC.m; sourceTree = "<group>"; };
+		18FC5B891C32A71700F859D5 /* LFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTabBar.h; sourceTree = "<group>"; };
+		18FC5B8A1C32A71700F859D5 /* LFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTabBar.m; sourceTree = "<group>"; };
 		614F6E67A569B892F33F99B8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A3F409E8D3EF1209BD4A8B0F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1398549DF4565F8DBA8EC56 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
@@ -108,14 +122,9 @@
 		18E6BA861C324D0B007965D5 /* LFBaiSiBuDeJie */ = {
 			isa = PBXGroup;
 			children = (
-				18E6BA8A1C324D0B007965D5 /* AppDelegate.h */,
-				18E6BA8B1C324D0B007965D5 /* AppDelegate.m */,
-				18E6BA8D1C324D0B007965D5 /* ViewController.h */,
-				18E6BA8E1C324D0B007965D5 /* ViewController.m */,
-				18E6BA901C324D0B007965D5 /* Main.storyboard */,
-				18E6BA931C324D0B007965D5 /* Assets.xcassets */,
-				18E6BA951C324D0B007965D5 /* LaunchScreen.storyboard */,
-				18E6BA981C324D0B007965D5 /* Info.plist */,
+				18FC5B5E1C3293B200F859D5 /* Class */,
+				18FC5B621C3293B200F859D5 /* Main */,
+				18FC5B631C3293B200F859D5 /* Other */,
 				18E6BA871C324D0B007965D5 /* Supporting Files */,
 			);
 			path = LFBaiSiBuDeJie;
@@ -124,6 +133,8 @@
 		18E6BA871C324D0B007965D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18E6BA931C324D0B007965D5 /* Assets.xcassets */,
+				18E6BA981C324D0B007965D5 /* Info.plist */,
 				18E6BA881C324D0B007965D5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -145,6 +156,195 @@
 				18E6BAAE1C324D0C007965D5 /* Info.plist */,
 			);
 			path = LFBaiSiBuDeJieUITests;
+			sourceTree = "<group>";
+		};
+		18FC5B5E1C3293B200F859D5 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B6D1C329D3900F859D5 /* Attention */,
+				18FC5B711C329D3900F859D5 /* Essence */,
+				18FC5B751C329D3900F859D5 /* Me */,
+				18FC5B791C329D3900F859D5 /* New */,
+				18FC5B5F1C3293B200F859D5 /* Controller */,
+				18FC5B601C3293B200F859D5 /* Model */,
+				18FC5B611C3293B200F859D5 /* View */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		18FC5B5F1C3293B200F859D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B671C32983A00F859D5 /* LFTabBarController.h */,
+				18FC5B681C32983A00F859D5 /* LFTabBarController.m */,
+				18FC5B6A1C329A6600F859D5 /* LFNavController.h */,
+				18FC5B6B1C329A6600F859D5 /* LFNavController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18FC5B601C3293B200F859D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18FC5B611C3293B200F859D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B891C32A71700F859D5 /* LFTabBar.h */,
+				18FC5B8A1C32A71700F859D5 /* LFTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18FC5B621C3293B200F859D5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				18E6BA8A1C324D0B007965D5 /* AppDelegate.h */,
+				18E6BA8B1C324D0B007965D5 /* AppDelegate.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18FC5B631C3293B200F859D5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		18FC5B6D1C329D3900F859D5 /* Attention */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B6E1C329D3900F859D5 /* Controller */,
+				18FC5B6F1C329D3900F859D5 /* Model */,
+				18FC5B701C329D3900F859D5 /* View */,
+			);
+			path = Attention;
+			sourceTree = "<group>";
+		};
+		18FC5B6E1C329D3900F859D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B861C329DD600F859D5 /* LFAttentionTabVC.h */,
+				18FC5B871C329DD600F859D5 /* LFAttentionTabVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18FC5B6F1C329D3900F859D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18FC5B701C329D3900F859D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18FC5B711C329D3900F859D5 /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B721C329D3900F859D5 /* Controller */,
+				18FC5B731C329D3900F859D5 /* Model */,
+				18FC5B741C329D3900F859D5 /* View */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		18FC5B721C329D3900F859D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B831C329DC400F859D5 /* LFEssenceTabVC.h */,
+				18FC5B841C329DC400F859D5 /* LFEssenceTabVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18FC5B731C329D3900F859D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18FC5B741C329D3900F859D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18FC5B751C329D3900F859D5 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B761C329D3900F859D5 /* Controller */,
+				18FC5B771C329D3900F859D5 /* Model */,
+				18FC5B781C329D3900F859D5 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		18FC5B761C329D3900F859D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B801C329D8D00F859D5 /* LFMeTableVC.h */,
+				18FC5B811C329D8D00F859D5 /* LFMeTableVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18FC5B771C329D3900F859D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18FC5B781C329D3900F859D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18FC5B791C329D3900F859D5 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B7A1C329D3900F859D5 /* Controller */,
+				18FC5B7B1C329D3900F859D5 /* Model */,
+				18FC5B7C1C329D3900F859D5 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		18FC5B7A1C329D3900F859D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18FC5B7D1C329D7600F859D5 /* LFNewTabVC.h */,
+				18FC5B7E1C329D7600F859D5 /* LFNewTabVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18FC5B7B1C329D3900F859D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18FC5B7C1C329D3900F859D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		22B003ABB907058AF09816A5 /* Pods */ = {
@@ -229,6 +429,7 @@
 		18E6BA7C1C324D0B007965D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LF;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "罗凡";
 				TargetAttributes = {
@@ -273,9 +474,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E6BA971C324D0B007965D5 /* LaunchScreen.storyboard in Resources */,
 				18E6BA941C324D0B007965D5 /* Assets.xcassets in Resources */,
-				18E6BA921C324D0B007965D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,9 +547,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E6BA8F1C324D0B007965D5 /* ViewController.m in Sources */,
 				18E6BA8C1C324D0B007965D5 /* AppDelegate.m in Sources */,
+				18FC5B821C329D8D00F859D5 /* LFMeTableVC.m in Sources */,
+				18FC5B691C32983A00F859D5 /* LFTabBarController.m in Sources */,
 				18E6BA891C324D0B007965D5 /* main.m in Sources */,
+				18FC5B7F1C329D7600F859D5 /* LFNewTabVC.m in Sources */,
+				18FC5B881C329DD600F859D5 /* LFAttentionTabVC.m in Sources */,
+				18FC5B851C329DC400F859D5 /* LFEssenceTabVC.m in Sources */,
+				18FC5B8B1C32A71700F859D5 /* LFTabBar.m in Sources */,
+				18FC5B6C1C329A6600F859D5 /* LFNavController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,25 +589,6 @@
 			targetProxy = 18E6BAA91C324D0C007965D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		18E6BA901C324D0B007965D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18E6BA911C324D0B007965D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		18E6BA951C324D0B007965D5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18E6BA961C324D0B007965D5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18E6BAAF1C324D0C007965D5 /* Debug */ = {

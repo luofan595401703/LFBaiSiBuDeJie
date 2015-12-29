@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LFTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    UIWindow *window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window = window;
+    
+    LFTabBarController *tabBarVC = [[LFTabBarController alloc]init];
+    window.rootViewController = tabBarVC;
+    
+    [window makeKeyAndVisible];
+    
     return YES;
 }
 
