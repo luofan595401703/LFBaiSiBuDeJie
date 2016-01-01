@@ -43,13 +43,13 @@
     LFAttentionTabVC *attention = [[LFAttentionTabVC alloc]init];
     LFMeTableVC *me = [[LFMeTableVC alloc]init];
     
-    [self setUpChildVC:essenceVC title:@"精华" image:[UIImage imageNamed:@"tabBar_essence_icon"] selectedImage:[UIImage imageNamed:@"tabBar_essence_click_icon"]];
+    [self setUpChildVC:essenceVC title:@"精华" image:[UIImage imageNamed:@"tabBar_essence_icon"] selectedImage:[UIImage imageWithOriginal:@"tabBar_essence_click_icon"]];
     
-    [self setUpChildVC:newVC title:@"新帖" image:[UIImage imageNamed:@"tabBar_new_icon"] selectedImage:[UIImage imageNamed:@"tabBar_new_click_icon"]];
+    [self setUpChildVC:newVC title:@"新帖" image:[UIImage imageNamed:@"tabBar_new_icon"] selectedImage:[UIImage imageWithOriginal:@"tabBar_new_click_icon"]];
     
-    [self setUpChildVC:attention title:@"关注" image:[UIImage imageNamed:@"tabBar_friendTrends_icon"] selectedImage:[UIImage imageNamed:@"tabBar_friendTrends_click_icon"]];
+    [self setUpChildVC:attention title:@"关注" image:[UIImage imageNamed:@"tabBar_friendTrends_icon"] selectedImage:[UIImage imageWithOriginal:@"tabBar_friendTrends_click_icon"]];
     
-    [self setUpChildVC:me title:@"我" image:[UIImage imageNamed:@"tabBar_me_icon"] selectedImage:[UIImage imageNamed:@"tabBar_me_click_icon"]];
+    [self setUpChildVC:me title:@"我" image:[UIImage imageNamed:@"tabBar_me_icon"] selectedImage:[UIImage imageWithOriginal:@"tabBar_me_click_icon"]];
     
 
 }
@@ -60,7 +60,6 @@
     LFNavController *navVC = [[LFNavController alloc]initWithRootViewController:vc];
     navVC.tabBarItem.title = title;
     navVC.tabBarItem.image = image;
-    selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     navVC.tabBarItem.selectedImage = selectedImage;
     
     [self addChildViewController:navVC];
@@ -70,6 +69,8 @@
 -(void)setUpItem
 {
     NSMutableDictionary *normal = [NSMutableDictionary dictionary];
+    //    tabbarItem的字体大小   跟默认状态下的字体大小有关
+
     normal[NSFontAttributeName] = [UIFont systemFontOfSize:12];
     normal[NSForegroundColorAttributeName] = [UIColor blackColor];
     

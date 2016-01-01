@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LFAttentionTabVC : UITableViewController
+@interface LFAttentionTabVC : UIViewController
 
 @end

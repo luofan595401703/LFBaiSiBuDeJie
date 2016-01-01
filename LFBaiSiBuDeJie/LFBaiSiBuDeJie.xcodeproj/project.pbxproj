@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182B5B621C3611A900C5FCE3 /* UIBarButtonItem+LFItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B5B611C3611A900C5FCE3 /* UIBarButtonItem+LFItem.m */; };
+		182B5B681C3615D000C5FCE3 /* LFtagVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B5B671C3615D000C5FCE3 /* LFtagVC.m */; };
+		182B5B6C1C36203100C5FCE3 /* LFAttentionTabVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182B5B6B1C36203100C5FCE3 /* LFAttentionTabVC.xib */; };
+		187B11C51C3519EB009994BB /* UIImage+original.m in Sources */ = {isa = PBXBuildFile; fileRef = 187B11C41C3519EB009994BB /* UIImage+original.m */; };
+		1882A6041C362379004377D8 /* LFLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882A6021C362379004377D8 /* LFLoginVC.m */; };
+		1882A6051C362379004377D8 /* LFLoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1882A6031C362379004377D8 /* LFLoginVC.xib */; };
+		1882A6081C36261E004377D8 /* LFQuickLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882A6071C36261E004377D8 /* LFQuickLoginButton.m */; };
+		1882A60B1C362662004377D8 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882A60A1C362662004377D8 /* UIView+XMGExtension.m */; };
+		1882A60E1C362C24004377D8 /* LFLoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1882A60D1C362C24004377D8 /* LFLoginTextField.m */; };
 		18E6BA891C324D0B007965D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6BA881C324D0B007965D5 /* main.m */; };
 		18E6BA8C1C324D0B007965D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E6BA8B1C324D0B007965D5 /* AppDelegate.m */; };
 		18E6BA941C324D0B007965D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E6BA931C324D0B007965D5 /* Assets.xcassets */; };
@@ -40,6 +49,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		182B5B601C3611A900C5FCE3 /* UIBarButtonItem+LFItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LFItem.h"; sourceTree = "<group>"; };
+		182B5B611C3611A900C5FCE3 /* UIBarButtonItem+LFItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LFItem.m"; sourceTree = "<group>"; };
+		182B5B661C3615D000C5FCE3 /* LFtagVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFtagVC.h; sourceTree = "<group>"; };
+		182B5B671C3615D000C5FCE3 /* LFtagVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFtagVC.m; sourceTree = "<group>"; };
+		182B5B6B1C36203100C5FCE3 /* LFAttentionTabVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFAttentionTabVC.xib; sourceTree = "<group>"; };
+		187B11C31C3519EB009994BB /* UIImage+original.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+original.h"; sourceTree = "<group>"; };
+		187B11C41C3519EB009994BB /* UIImage+original.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+original.m"; sourceTree = "<group>"; };
+		1882A6011C362379004377D8 /* LFLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLoginVC.h; sourceTree = "<group>"; };
+		1882A6021C362379004377D8 /* LFLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLoginVC.m; sourceTree = "<group>"; };
+		1882A6031C362379004377D8 /* LFLoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LFLoginVC.xib; sourceTree = "<group>"; };
+		1882A6061C36261E004377D8 /* LFQuickLoginButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFQuickLoginButton.h; sourceTree = "<group>"; };
+		1882A6071C36261E004377D8 /* LFQuickLoginButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFQuickLoginButton.m; sourceTree = "<group>"; };
+		1882A6091C362662004377D8 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		1882A60A1C362662004377D8 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		1882A60C1C362C24004377D8 /* LFLoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLoginTextField.h; sourceTree = "<group>"; };
+		1882A60D1C362C24004377D8 /* LFLoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLoginTextField.m; sourceTree = "<group>"; };
+		189BE5551C3520FA00304190 /* LF.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LF.pch; sourceTree = "<group>"; };
 		18E6BA841C324D0B007965D5 /* LFBaiSiBuDeJie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFBaiSiBuDeJie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E6BA881C324D0B007965D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E6BA8A1C324D0B007965D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +123,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		187B11C21C35199A009994BB /* Catgory */ = {
+			isa = PBXGroup;
+			children = (
+				187B11C31C3519EB009994BB /* UIImage+original.h */,
+				187B11C41C3519EB009994BB /* UIImage+original.m */,
+				182B5B601C3611A900C5FCE3 /* UIBarButtonItem+LFItem.h */,
+				182B5B611C3611A900C5FCE3 /* UIBarButtonItem+LFItem.m */,
+				1882A6091C362662004377D8 /* UIView+XMGExtension.h */,
+				1882A60A1C362662004377D8 /* UIView+XMGExtension.m */,
+			);
+			path = Catgory;
+			sourceTree = "<group>";
+		};
 		18E6BA7B1C324D0B007965D5 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +161,7 @@
 		18E6BA861C324D0B007965D5 /* LFBaiSiBuDeJie */ = {
 			isa = PBXGroup;
 			children = (
+				187B11C21C35199A009994BB /* Catgory */,
 				18FC5B5E1C3293B200F859D5 /* Class */,
 				18FC5B621C3293B200F859D5 /* Main */,
 				18FC5B631C3293B200F859D5 /* Other */,
@@ -136,6 +176,7 @@
 				18E6BA931C324D0B007965D5 /* Assets.xcassets */,
 				18E6BA981C324D0B007965D5 /* Info.plist */,
 				18E6BA881C324D0B007965D5 /* main.m */,
+				189BE5551C3520FA00304190 /* LF.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,6 +271,10 @@
 			children = (
 				18FC5B861C329DD600F859D5 /* LFAttentionTabVC.h */,
 				18FC5B871C329DD600F859D5 /* LFAttentionTabVC.m */,
+				182B5B6B1C36203100C5FCE3 /* LFAttentionTabVC.xib */,
+				1882A6011C362379004377D8 /* LFLoginVC.h */,
+				1882A6021C362379004377D8 /* LFLoginVC.m */,
+				1882A6031C362379004377D8 /* LFLoginVC.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -244,6 +289,10 @@
 		18FC5B701C329D3900F859D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				1882A6061C36261E004377D8 /* LFQuickLoginButton.h */,
+				1882A6071C36261E004377D8 /* LFQuickLoginButton.m */,
+				1882A60C1C362C24004377D8 /* LFLoginTextField.h */,
+				1882A60D1C362C24004377D8 /* LFLoginTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -263,6 +312,8 @@
 			children = (
 				18FC5B831C329DC400F859D5 /* LFEssenceTabVC.h */,
 				18FC5B841C329DC400F859D5 /* LFEssenceTabVC.m */,
+				182B5B661C3615D000C5FCE3 /* LFtagVC.h */,
+				182B5B671C3615D000C5FCE3 /* LFtagVC.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -474,7 +525,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1882A6051C362379004377D8 /* LFLoginVC.xib in Resources */,
 				18E6BA941C324D0B007965D5 /* Assets.xcassets in Resources */,
+				182B5B6C1C36203100C5FCE3 /* LFAttentionTabVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,14 +601,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E6BA8C1C324D0B007965D5 /* AppDelegate.m in Sources */,
+				1882A60E1C362C24004377D8 /* LFLoginTextField.m in Sources */,
+				1882A60B1C362662004377D8 /* UIView+XMGExtension.m in Sources */,
 				18FC5B821C329D8D00F859D5 /* LFMeTableVC.m in Sources */,
 				18FC5B691C32983A00F859D5 /* LFTabBarController.m in Sources */,
 				18E6BA891C324D0B007965D5 /* main.m in Sources */,
 				18FC5B7F1C329D7600F859D5 /* LFNewTabVC.m in Sources */,
+				182B5B621C3611A900C5FCE3 /* UIBarButtonItem+LFItem.m in Sources */,
 				18FC5B881C329DD600F859D5 /* LFAttentionTabVC.m in Sources */,
+				182B5B681C3615D000C5FCE3 /* LFtagVC.m in Sources */,
+				1882A6081C36261E004377D8 /* LFQuickLoginButton.m in Sources */,
 				18FC5B851C329DC400F859D5 /* LFEssenceTabVC.m in Sources */,
 				18FC5B8B1C32A71700F859D5 /* LFTabBar.m in Sources */,
+				187B11C51C3519EB009994BB /* UIImage+original.m in Sources */,
 				18FC5B6C1C329A6600F859D5 /* LFNavController.m in Sources */,
+				1882A6041C362379004377D8 /* LFLoginVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -677,6 +737,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/BaiSiBuDeJie/LFBaiSiBuDeJie/LFBaiSiBuDeJie/LF.pch;
 				INFOPLIST_FILE = LFBaiSiBuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -691,6 +753,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/apple/Desktop/BaiSiBuDeJie/LFBaiSiBuDeJie/LFBaiSiBuDeJie/LF.pch;
 				INFOPLIST_FILE = LFBaiSiBuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
